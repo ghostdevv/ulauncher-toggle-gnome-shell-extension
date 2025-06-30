@@ -1,6 +1,8 @@
 # ULauncher Toggle Gnome Extension
 
-A Gnome extension to toggle ULauncher on/off from quick settings menu
+A Gnome extension to toggle ULauncher on/off from quick settings menu.
+
+<img src="./.github/demo.png" width="320px" alt="screenshot of the extension" />
 
 ## Installation
 
