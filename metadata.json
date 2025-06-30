@@ -1,0 +1,10 @@
+{
+	"name": "ULauncher Toggle",
+	"version": 1,
+	"description": "A Gnome extension to toggle ULauncher on/off from quick settings menu",
+	"uuid": "ulauncher-toggle@willow.sh",
+	"url": "https://github.com/ghostdevv/ulauncher-toggle-gnome-shell-extension",
+	"shell-version": ["48"],
+	"settings-schema": "org.gnome.shell.extensions.ulauncher-toggle",
+	"gettext-domain": "ulauncher-toggle@willow.sh"
+}
