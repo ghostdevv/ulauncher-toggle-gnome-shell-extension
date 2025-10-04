@@ -70,6 +70,7 @@ export default class UlauncherToggle extends Extension {
 		this._indicator = new SystemIndicator();
 		this._indicator.quickSettingsItems.push(this._menu);
 		Main.panel.statusArea.quickSettings.addExternalIndicator(
+			// @ts-expect-error who knows
 			this._indicator,
 		);
 
