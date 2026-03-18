@@ -11,7 +11,6 @@ import {
 	Extension,
 	gettext as _,
 	type ConsoleLike,
-	type ExtensionMetadata,
 } from 'resource:///org/gnome/shell/extensions/extension.js';
 
 interface SystemdUnit {
@@ -60,7 +59,7 @@ export default class UlauncherToggle extends Extension {
 	private _sourceId: number | null = null;
 	public readonly logger: ConsoleLike;
 
-	constructor(metadata: ExtensionMetadata) {
+	constructor(metadata: InstanceType<typeof Extension>['metadata']) {
 		super(metadata);
 		this.logger = this.getLogger();
 	}
